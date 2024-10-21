@@ -27,8 +27,13 @@ function App() {
               <img src={x} className='h-[80px] w-[80px] rounded-full'></img>
               <img src={lkd} className='h-[80px] w-[80px]'></img>
           </div>
+          
+          <div className='flex flex-col items-center'>
+              <h2 className='font-bold text-[20px]'>About Me</h2>
+              <h3 className='w-[330px] text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, cumque provident impedit asperiores expedita fuga sit ut eaque est et quam ipsa. Labore iusto nostrum illum ipsam voluptatem eaque veritatis.</h3>
+          </div>
           <div>
-            <button className='text-[20px] font-semibold bg-stone-500 rounded-md p-[8px] w-[300px] mt-[20px]'>Subscribe to my Newsletter</button>
+            <button className='text-[20px] font-semibold bg-stone-500 rounded-md p-[8px] w-[300px] mt-[20px] mb-[20px]'>Subscribe to my Newsletter</button>
           </div>
       </div>
    
